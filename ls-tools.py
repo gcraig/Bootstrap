@@ -16,7 +16,7 @@ deploy_dir = "C:/Dev/Apps/JBoss/JBoss-5/server/tools/deploy"
 
 # Repository location
 svn = {
-    "svn.server"      : "https://svn.nwlinc.com:2443/svn/LS/branches",
+    "svn.server"      : "https://server/svn/branches",
     "svn.branch"      : "LSHL-PRODUCTION-SUPPORT-2011-05-03",
     "svn.app"         : "ls-tools",
     "svn.core.ver"    : 4
@@ -58,17 +58,17 @@ files = {
         [{
             # Username
             "pattern": "<user-name>${value}</user-name>",
-            "value": "gcraig"
+            "value": ""
         },{
             "pattern": "user=${value};",
-            "value": "gcraig"
+            "value": ""
         },{
             # Password
             "pattern": "<password>${value}</password>",
-            "value": "R#dk48cw"
+            "value": ""
         },{
             "pattern": "password=${value};",
-            "value": "R#dk48cw"
+            "value": ""
         }],
 
     "../ehcache.xml":
