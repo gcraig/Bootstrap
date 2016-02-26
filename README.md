@@ -1,7 +1,6 @@
 # Bootstrap
 
-Script to quickly switch between development branches or ramp-up a new development workstation. 
-(Best used with centralized-scc versus distributed types like git or mercurial)
+Script to quickly switch between development branches or ramp-up a new development workstation, resulting in a live functioning development workstation. (Best used with a centralized vcs (svn) versus distributed versions (i.e., git or mercurial) that already provides quick branch management functionality)
 
 ## Prerequisites
 
