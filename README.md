@@ -1,7 +1,7 @@
 # Bootstrap
 
-Custom Application bootstrap script to apply post-edit configuration prior to
-builds for NWL.
+Script to quickly switch between development branches or ramp-up a new development workstation. 
+(Best used with centralized-scc versus distributed types like git or mercurial)
 
 ## Prerequisites
 
